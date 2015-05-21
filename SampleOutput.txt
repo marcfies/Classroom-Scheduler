@@ -1,0 +1,1378 @@
+Faculty Name: Anscombe, Full Time? Y, Faculty member can teach 7.5 class(es) with expertise in Programming, ScientificComputing and None
+
+Faculty Name: Boyle, Full Time? Y, Faculty member can teach 5 class(es) with expertise in Programming, SoftwareEngineering and None
+
+Faculty Name: Carnesale, Full Time? Y, Faculty member can teach 5 class(es) with expertise in Programming, SoftwareEngineering and OperatingSystems
+
+Faculty Name: Dinkins, Full Time? Y, Faculty member can teach 2 class(es) with expertise in Programming, ScientificComputing and Hardware
+
+Faculty Name: Epstein, Full Time? Y, Faculty member can teach 7 class(es) with expertise in Programming, Cybersecurity and None
+
+Faculty Name: Franklin, Full Time? Y, Faculty member can teach 2 class(es) with expertise in Cybersecurity, None and None
+
+Faculty Name: Goss, Full Time? Y, Faculty member can teach 7 class(es) with expertise in Cybersecurity, SoftwareEngineering and None
+
+Faculty Name: Hall, Full Time? Y, Faculty member can teach 5 class(es) with expertise in Writing, None and None
+
+Faculty Name: Ing, Full Time? Y, Faculty member can teach 4 class(es) with expertise in Writing, Databases and None
+
+Faculty Name: Jenkins, Full Time? Y, Faculty member can teach 5 class(es) with expertise in Hardware, SoftwareEngineering and None
+
+Faculty Name: Klasse, Full Time? Y, Faculty member can teach 6 class(es) with expertise in Hardware, None and None
+
+Faculty Name: Lingonberry, Full Time? Y, Faculty member can teach 8 class(es) with expertise in Networking, OperatingSystems and None
+
+Faculty Name: Marcus, Full Time? Y, Faculty member can teach 1 class(es) with expertise in Networking, SoftwareEngineering and None
+
+Faculty Name: Norbert, Full Time? Y, Faculty member can teach 4 class(es) with expertise in Databases, SoftwareEngineering and None
+
+Faculty Name: Olmeda, Full Time? Y, Faculty member can teach 5 class(es) with expertise in SoftwareEngineering, OperatingSystems and None
+
+Faculty Name: Price, Full Time? Y, Faculty member can teach 3 class(es) with expertise in SoftwareEngineering, Hardware and None
+
+Faculty Name: Quine, Full Time? Y, Faculty member can teach 4 class(es) with expertise in SoftwareEngineering, ComputerEngineering and None
+
+Faculty Name: Ralston, Full Time? N, Faculty member can teach 1 class(es) with expertise in ComputerEngineering, Hardware and None
+
+Faculty Name: Simpson, Full Time? N, Faculty member can teach 1 class(es) with expertise in Teaching, None and None
+
+Faculty Name: Thomas, Full Time? N, Faculty member can teach 1 class(es) with expertise in Teaching, None and None
+
+Faculty Name: Ungit, Full Time? N, Faculty member can teach 1.5 class(es) with expertise in Programming, ComputerEngineering and Hardware
+
+Faculty Name: Veeneman, Full Time? N, Faculty member can teach 1 class(es) with expertise in Programming, None and None
+
+Faculty Name: White, Full Time? N, Faculty member can teach 6 class(es) with expertise in Programming, Cybersecurity and None
+
+Faculty Name: Xong, Full Time? N, Faculty member can teach 1 class(es) with expertise in Programming, SoftwareEngineering and None
+
+Faculty Name: Yttrium, Full Time? N, Faculty member can teach 0.5 class(es) with expertise in Graphics, SoftwareEngineering and None
+
+Faculty Name: Zelda, Full Time? N, Faculty member can teach 2 class(es) with expertise in Graphics, SoftwareEngineering and None
+
+Faculty Name: Zorro, Full Time? N, Faculty member can teach 1 class(es) with expertise in OperatingSystems, SoftwareEngineering and None
+
+Faculty Name: Zane, Full Time? N, Faculty member can teach 1.5 class(es) with expertise in Programming, None and None
+
+Summer Quarter:
+Course Number: 161
+Time: 2:30-4:50
+Day: M/W
+Cap: 30
+TypeOfClass: CSS
+
+Summer Quarter:
+Course Number: SKL161
+Time: 2:30-5:00
+Day: Tu
+Cap: 30
+TypeOfClass: CSS
+
+Summer Quarter:
+Course Number: 162
+Time: 6:00-8:20
+Day: M/W
+Cap: 30
+TypeOfClass: CSS
+
+Summer Quarter:
+Course Number: SKL162
+Time: 6:00-8:30
+Day: Tu
+Cap: 30
+TypeOfClass: CSS
+
+Summer Quarter:
+Course Number: 301
+Time: 9:00-11:20
+Day: MW
+Cap: 30
+TypeOfClass: CSS
+
+Summer Quarter:
+Course Number: 430
+Time: 11:45-2:05
+Day: MW
+Cap: 10
+TypeOfClass: CSS
+
+Summer Quarter:
+Course Number: 495
+Time: TBD
+Day: TBD
+Cap: 0
+TypeOfClass: CSS
+
+Summer Quarter:
+Course Number: 497
+Time: TBD
+Day: TBD
+Cap: 0
+TypeOfClass: CSS
+
+Summer Quarter:
+Course Number: 498
+Time: TBD
+Day: TBD
+Cap: 0
+TypeOfClass: CSS
+
+Summer Quarter:
+Course Number: 499
+Time: TBD
+Day: TBD
+Cap: 0
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 161A
+Time: 11:00
+Day: M/W
+Cap: 45
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: SKL161A
+Time: 8:45-11:15
+Day: F
+Cap: 45
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 161B
+Time: 1:15
+Day: M/W
+Cap: 45
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: SKL161B
+Time: 11:30-2:00
+Day: F
+Cap: 45
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 162A
+Time: 1:15
+Day: T/Th
+Cap: 45
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: SKL162A
+Time: 2:30-5:00
+Day: F
+Cap: 45
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 162B
+Time: 5:45
+Day: T/Th
+Cap: 45
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: SKL162B
+Time: 3:30-6:00
+Day: Tu
+Cap: 45
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: "301A,D"
+Time: 11:00
+Day: T/TH
+Cap: 60
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 301B
+Time: 5:45
+Day: T/Th
+Cap: 30
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 301C
+Time: 5:45
+Day: T/Th
+Cap: 30
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 342A
+Time: 5:45
+Day: M/W
+Cap: 65
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 342B
+Time: 8:00
+Day: M/W
+Cap: 65
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 343A
+Time: 3:30
+Day: M/W
+Cap: 60
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 350
+Time: 3:30
+Day: T/Th
+Cap: 60
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 360A
+Time: 1:15
+Day: M/W
+Cap: 45
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 360B
+Time: 5:45
+Day: T/Th
+Cap: 45
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 360C
+Time: 3:30
+Day: T/Th
+Cap: 45
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 370
+Time: 5:45
+Day: M/W
+Cap: 60
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 422A
+Time: 3:30
+Day: M/W
+Cap: 45
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 422B
+Time: 3:30
+Day: T/Th
+Cap: 45
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 430
+Time: A
+Day: 3:30
+Cap: M/W
+TypeOfClass: 45
+
+Autumn Quarter:
+Course Number: 497
+Time: TBD
+Day: TBD
+Cap: 0
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 498
+Time: TBD
+Day: TBD
+Cap: 0
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 499
+Time: TBD
+Day: TBD
+Cap: 0
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: SKL509
+Time: 8:00
+Day: Th
+Cap: 30
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 501A
+Time: 6-7:40
+Day: M/W
+Cap: 30
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 501B
+Time: 6-7:40
+Day: T/TH
+Cap: 30
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 506A
+Time: 8:00
+Day: M
+Cap: 30
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 506B
+Time: 8:00
+Day: T
+Cap: 30
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 515
+Time: 8:00
+Day: T
+Cap: 30
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 517
+Time: 5:45
+Day: M/W
+Cap: 30
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 527
+Time: 8:00
+Day: M/W
+Cap: 30
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 533
+Time: 5:45
+Day: T/TH
+Cap: 30
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 572
+Time: 8:00
+Day: T/TH
+Cap: 30
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 579
+Time: 5:45
+Day: M/W
+Cap: 30
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 590(14)
+Time: 5:45
+Day: T/TH
+Cap: 30
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 590
+Time: TBD
+Day: TBD
+Cap: 0
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 205/405
+Time: 4:15-5:05
+Day: Tu
+Cap: 20
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 295
+Time: 1:15
+Day: W
+Cap: 10
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 310
+Time: 8:00
+Day: M/W
+Cap: 45
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 332
+Time: 1:15-5:15
+Day: F
+Cap: 90
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 383
+Time: 1-3
+Day: F
+Cap: 45
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 455
+Time: 3:30
+Day: T/Th
+Cap: 45
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 457
+Time: 11:00
+Day: M/W
+Cap: 45
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 475
+Time: 5:45
+Day: M/W
+Cap: 45
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 490A(4)
+Time: 3:30
+Day: M/W
+Cap: 45
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 490B
+Time: 8:00
+Day: M/W
+Cap: 20
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 490C
+Time: 8:00
+Day: T/Th
+Cap: 45
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 490D
+Time: 5:45
+Day: TTh
+Cap: 45
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 499
+Time: TBD
+Day: TBD
+Cap: 0
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: BCUSP161
+Time: 8:45
+Day: T/Th
+Cap: 45
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 107
+Time: 8:45
+Day: T/Th
+Cap: 45
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 341
+Time: 1:15
+Day: T/Th
+Cap: 45
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 371
+Time: 5:45
+Day: T/Th
+Cap: 45
+TypeOfClass: CSS
+
+Autumn Quarter:
+Course Number: 474
+Time: 5:45
+Day: T/Th
+Cap: 45
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 161A
+Time: 3:30
+Day: M/W
+Cap: 45
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: SKL161A
+Time: 8:45-11:15
+Day: F
+Cap: 45
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 161B
+Time: 11:00
+Day: M/W
+Cap: 45
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: SKL161B
+Time: 11:30-2:00
+Day: F
+Cap: 45
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 161C
+Time: 8:45
+Day: M/W
+Cap: 45
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: SKL161C
+Time: 11:30-2:00
+Day: F
+Cap: 45
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 162A
+Time: 11:00
+Day: T/Th
+Cap: 45
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: SKL162A
+Time: 2:15-4:45
+Day: F
+Cap: 45
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 162B
+Time: 5:45
+Day: M/W
+Cap: 45
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: SKL162B
+Time: 5:45-8:15
+Day: Tu
+Cap: 45
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 301A
+Time: 1:15
+Day: T/Th
+Cap: 30
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 301B
+Time: 1:15
+Day: T/Th
+Cap: 30
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 301C
+Time: 8:45
+Day: M/W
+Cap: 30
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 342A
+Time: 5:45
+Day: M/W
+Cap: 45
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 342B
+Time: 8:00
+Day: M/W
+Cap: 45
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 343A
+Time: 3:30
+Day: M/W
+Cap: 60
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 343B
+Time: 8:00
+Day: M/W
+Cap: 60
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 350A
+Time: 3:30
+Day: T/Th
+Cap: 60
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 350B
+Time: 1:15
+Day: T/Th
+Cap: 60
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 360A
+Time: 3:30
+Day: T/Th
+Cap: 45
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 360B
+Time: 5:45
+Day: T/Th
+Cap: 45
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 370A
+Time: 1:15
+Day: M/W
+Cap: 60
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 370B
+Time: 5:45
+Day: T/Th
+Cap: 60
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 421
+Time: 5:45
+Day: T/Th
+Cap: 20
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 422
+Time: 3:30
+Day: T/Th
+Cap: 45
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 430
+Time: 3:30
+Day: M/W
+Cap: 60
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 497
+Time: TBD
+Day: TBD
+Cap: 0
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 498
+Time: TBD
+Day: TBD
+Cap: 0
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 499
+Time: TBD
+Day: TBD
+Cap: 0
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: SKL509
+Time: 8:00
+Day: T
+Cap: 10
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: SKL510
+Time: 8:00
+Day: Th
+Cap: 10
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 502A
+Time: 6-7:40
+Day: M/W
+Cap: 30
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 502B
+Time: 6-7:40
+Day: T/TH
+Cap: 30
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 507A
+Time: 8:00
+Day: M
+Cap: 30
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 507B
+Time: 8:00
+Day: T
+Cap: 30
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 514
+Time: 8:00
+Day: W
+Cap: 30
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 537
+Time: 8:00
+Day: T/Th
+Cap: 30
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 538
+Time: 5:45
+Day: M/W
+Cap: 30
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 552
+Time: 8:00
+Day: M/W
+Cap: 30
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 555
+Time: 5:45
+Day: M/W
+Cap: 30
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 565
+Time: 5:45
+Day: T/TH
+Cap: 30
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 577
+Time: 5:45
+Day: T/Th
+Cap: 30
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 593
+Time: TBD
+Day: TBD
+Cap: 0
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 595
+Time: TBD
+Day: TBD
+Cap: 0
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 205/405
+Time: 3:30-4:20
+Day: M
+Cap: 20
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 211
+Time: 3:30
+Day: M/W
+Cap: 45
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 290
+Time: 3:30
+Day: W
+Cap: 10
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 295
+Time: 1:15
+Day: W
+Cap: 10
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 332
+Time: 1:15-5:15
+Day: F
+Cap: 90
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 337
+Time: 5:45
+Day: M/W
+Cap: 45
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 427A
+Time: 5:45
+Day: M/W
+Cap: 15
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 427A
+Time: Lab
+Day: 2:30-5:30
+Cap: F
+TypeOfClass: 15
+
+Winter Quarter:
+Course Number: 427B
+Time: 5:45
+Day: M/W
+Cap: 15
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 427B
+Time: Lab
+Day: 2:30-5:30
+Cap: F
+TypeOfClass: 15
+
+Winter Quarter:
+Course Number: 432
+Time: 5:45
+Day: T/Th
+Cap: 45
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 451
+Time: 3:30
+Day: T/Th
+Cap: 45
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 475
+Time: 1:15
+Day: M/W
+Cap: 45
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 490A(8)
+Time: 11:00
+Day: T/TH
+Cap: 45
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 490B(9)
+Time: 8:00
+Day: M/W
+Cap: 45
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 499
+Time: TBD
+Day: TBD
+Cap: 0
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: BCUSP161
+Time: 8:45
+Day: T/Th
+Cap: 45
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 107
+Time: 1:15
+Day: T/Th
+Cap: 45
+TypeOfClass: CSS
+
+Winter Quarter:
+Course Number: 473
+Time: 5:45
+Day: T/Th
+Cap: 45
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 161A
+Time: 11:00
+Day: M/W
+Cap: 45
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: SKL161A
+Time: 8:45-11:15
+Day: F
+Cap: 45
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 161B
+Time: 3:30
+Day: M/W
+Cap: 45
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: SKL161B
+Time: 11:30-2:00
+Day: F
+Cap: 45
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 161C
+Time: 8:00
+Day: M/W
+Cap: 45
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: SKL161C
+Time: 5:45-8:15
+Day: Tu
+Cap: 45
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 162A
+Time: 1:15
+Day: M/W
+Cap: 45
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: SKL162A
+Time: 2:15-4:45
+Day: F
+Cap: 45
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 162B
+Time: 5:45
+Day: M/W
+Cap: 45
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: SKL162B
+Time: 5:45-8:15
+Day: Th
+Cap: 45
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 301A
+Time: 1:15
+Day: T/Th
+Cap: 30
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 301B
+Time: 3:30
+Day: T/Th
+Cap: 30
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 342A
+Time: 3:30
+Day: M/W
+Cap: 45
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 342B
+Time: 8:00
+Day: T/TH
+Cap: 45
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 343A
+Time: 3:30
+Day: M/W
+Cap: 45
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 350A
+Time: 5:45
+Day: T/Th
+Cap: 45
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 360A
+Time: 5:45
+Day: M/W
+Cap: 45
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 370A
+Time: 3:30
+Day: T/Th
+Cap: 45
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 422A
+Time: 5:45
+Day: M/W
+Cap: 45
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 422B
+Time: 1:15
+Day: T/Th
+Cap: 45
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 430A
+Time: 8:00
+Day: M/W
+Cap: 45
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 430B
+Time: 1:15
+Day: T/Th
+Cap: 45
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 496
+Time: 5:45
+Day: M/W
+Cap: 10
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 497
+Time: TBD
+Day: TBD
+Cap: 0
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 498
+Time: TBD
+Day: TBD
+Cap: 0
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 499
+Time: TBD
+Day: TBD
+Cap: 0
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: SKL509
+Time: 8:00
+Day: T
+Cap: 10
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: SKL510
+Time: 8:00
+Day: Th
+Cap: 10
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 503A
+Time: 6-7:40
+Day: M/W
+Cap: 30
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 503B
+Time: 6-7:40
+Day: T/TH
+Cap: 30
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 508A
+Time: 8:00
+Day: M
+Cap: 30
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 508B
+Time: 8:00
+Day: T
+Cap: 30
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 519
+Time: 5:45
+Day: T/Th
+Cap: 30
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 539
+Time: 8:00
+Day: M/W
+Cap: 30
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 553
+Time: 5:45
+Day: M/W
+Cap: 30
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 566
+Time: 8:00
+Day: M/W
+Cap: 30
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 578
+Time: 8:00
+Day: T/Th
+Cap: 30
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 590(10)
+Time: 5:45
+Day: T/TH
+Cap: 30
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 593
+Time: TBD
+Day: TBD
+Cap: 0
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 595
+Time: TBD
+Day: TBD
+Cap: 0
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 205/405
+Time: 1:15-2:05
+Day: Th
+Cap: 20
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 225
+Time: 3:30
+Day: T/Th
+Cap: 30
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 295
+Time: 1:15
+Day: W
+Cap: 10
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 332
+Time: 1:15-5:15
+Day: F
+Cap: 90
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 385
+Time: 3:30
+Day: T/Th
+Cap: 45
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 411
+Time: 1:15
+Day: M/W
+Cap: 45
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 415
+Time: 3:30
+Day: TTh
+Cap: 45
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 428
+Time: (6)
+Day: 5:45
+Cap: M/W
+TypeOfClass: 45
+
+Spring Quarter:
+Course Number: 428
+Time: Lab
+Day: 2:30-5:30
+Cap: F
+TypeOfClass: 45
+
+Spring Quarter:
+Course Number: 432
+Time: 5:45
+Day: T/Th
+Cap: 45
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 434
+Time: 3:30
+Day: M/W
+Cap: 45
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 475
+Time: 3:30
+Day: M/W
+Cap: 45
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 480
+Time: 5:45
+Day: M/W
+Cap: 45
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 448
+Time: 8:00
+Day: T/Th
+Cap: 45
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 458
+Time: 8:00
+Day: M/W
+Cap: 45
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 490A
+Time: 1:15
+Day: M/W
+Cap: 45
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 490B
+Time: 3:30
+Day: M/W
+Cap: 45
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 499
+Time: TBD
+Day: TBD
+Cap: 0
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: BCUSP161
+Time: 8:45
+Day: T/Th
+Cap: 45
+TypeOfClass: CSS
+
+Spring Quarter:
+Course Number: 107
+Time: 1:15
+Day: T/Th
+Cap: 45
+TypeOfClass: CSS
