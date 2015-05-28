@@ -86,10 +86,10 @@ autumn = quarter.Quarter(2016, 'Autumn', autumnCourses)
 winter = quarter.Quarter(2016, 'Winter', winterCourses)
 spring = quarter.Quarter(2016, 'Spring', springCourses)
 
-# print summer.display()
-# print autumn.display()
-# print winter.display()
-# print spring.display()
+print summer.display()
+print autumn.display()
+print winter.display()
+print spring.display()
 
 nextYear = schedule.Schedule([autumn, winter, spring, summer], Facultylist)
 
@@ -100,6 +100,8 @@ Part two uses schedule input file to fill lists of schedules by quarter
 
 nextYear.showStatistics()
 nextYear.optimalSchedule(nextYear.quarters[0])
-test = nextYear.instructors
+print nextYear.quarters[0].season
+for prof in nextYear.instructors:
+    prof.showClassSchedule(nextYear.quarters[0].season)
 
             

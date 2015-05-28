@@ -16,11 +16,12 @@ class Schedule(object):
 			Output:
 				Prints statistics to console 
 		"""
-		# print self.expertiseAvailability()
-		assets = self.expertiseAvailability()
-
-		disp = N.array(self.expertiseAvailability(), dtype='O')
-		print disp
+		print 'Faculty members qualified to be considered an expert in a field'
+		skills = self.expertiseAvailability()
+		for skill in skills:
+			print str(skill[0]) + ' ' + skill[1]
+		# disp = N.array(self.expertiseAvailability(), dtype='O')
+		# print disp
 		
 
 	def visualize(self):

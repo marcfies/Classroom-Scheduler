@@ -36,7 +36,7 @@ class Faculty(object):
         filled = float(len(self.courses)) + 1.0
         total = float(self.numClasses)
         if (filled <= total):
-            print ((str(filled)) + ' ' + str(total) + '\n')
+            # print ((str(filled)) + ' ' + str(total) + '\n')
             # TODO: Check to confirm no two courses overlap time, and handle
             #       appropriately if it could be scheduled better
             self.courses.append(newCourse)
@@ -55,10 +55,14 @@ class Faculty(object):
                 TODO: Add visualization of this schedule to show a weekly
                       schedule
         """
+        if (len(self.courses) > 0):
+            print '-----------------------------------------------------------'
+            print self.name + '\n'
 
-        for s in self.courses:
-            if (s.quarter == quarter):
-                print s.display()
+            for s in self.courses:
+                if (s.quarter == quarter):
+                    print s.courseNumber
+            print
 
         # loop through all courses assigned to the faculty
         # for course in self.courses:
