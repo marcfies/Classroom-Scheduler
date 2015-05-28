@@ -1,5 +1,6 @@
 import numpy as N
 import matplotlib as plt
+import random
 
 class Schedule(object):
 	"""
@@ -15,7 +16,11 @@ class Schedule(object):
 			Output:
 				Prints statistics to console 
 		"""
-		print self.expertiseAvailability()
+		# print self.expertiseAvailability()
+		assets = self.expertiseAvailability()
+
+		disp = N.array(self.expertiseAvailability(), dtype='O')
+		print disp
 		
 
 	def visualize(self):
@@ -44,6 +49,21 @@ class Schedule(object):
 				fitFaculty.append(faculty)
 		# return the list of faculty, empty or not
 		return fitFaculty
+
+	def getRandomExpert(self, expertise):
+		""" Returns a random faculty member with the given expertise
+
+			Input:
+				expertise = the string literal of the desired expertise
+
+			Output:
+				Returns a random qualified member of the faculty as a faculty
+				object
+		"""
+		pool = self.getExperts(expertise)
+		index = random.randint(0,len(pool))
+		return pool[index]
+
 
 	def expertiseAvailability(self):
 		""" A list of available faculty expertise ordered least to most common
@@ -130,9 +150,26 @@ class Schedule(object):
 						# addCourse(course) == False means that the professor 
 						# was unable to teach the class due to space or time
 						# conflicts, continue searching
-						profIndex += 1
-						isAssigned = False
-						continue
+						options = len(potentialProfs)
+						# if there are no more options, ignore for now
+						if (options > (profIndex + 1)):
+							profIndex += 1
+							# leave marked as unassigned for later
+							isAssigned = False
+							continue
+						else:
+							break
+		# go back over courses left unassigned and assign to whoever has time
+		for rest in quarter.courses:
+			if (rest.isAssigned != True):
+				# for now, simply go through all potentially available faculty
+				for free in self.instructors:
+					if (free.addCourse(rest)):
+						# mark as assigned and end search
+						rest.isAssigned = True
+						break
+
+
 
 
 

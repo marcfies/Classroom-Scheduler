@@ -12,7 +12,7 @@ class Faculty(object):
         self.expertise1 = expertise1
         self.expertise2 = expertise2
         self.expertise3 = expertise3
-        self.courses = []
+        self.courses = [] 
         
     def display(self):
         return 'Faculty Name: ' + self.name \
@@ -33,7 +33,10 @@ class Faculty(object):
         """
 
         # check that the faculty is able to teach another class this quarter
-        if (len(self.courses)+1 <= self.numClasses):
+        filled = float(len(self.courses)) + 1.0
+        total = float(self.numClasses)
+        if (filled <= total):
+            print ((str(filled)) + ' ' + str(total) + '\n')
             # TODO: Check to confirm no two courses overlap time, and handle
             #       appropriately if it could be scheduled better
             self.courses.append(newCourse)
@@ -52,10 +55,15 @@ class Faculty(object):
                 TODO: Add visualization of this schedule to show a weekly
                       schedule
         """
+
+        for s in self.courses:
+            if (s.quarter == quarter):
+                print s.display()
+
         # loop through all courses assigned to the faculty
-        for course in self.courses:
-            # then call their display method
-            print course.display()
+        # for course in self.courses:
+        #     # then call their display method
+        #     print course.display()
 
 
 
@@ -66,4 +74,3 @@ class Faculty(object):
 
 
 
-            

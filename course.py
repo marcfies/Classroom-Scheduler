@@ -22,3 +22,4 @@ class Course(object):
             '\nTypeOfClass: ' + self.typeOfClass + '\nRelated Expertise: ' + \
             self.prefExpertise
 
+                           
