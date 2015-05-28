@@ -40,10 +40,10 @@ for i in range(len(dataSplit)):
     Facultylist.append(faculty.Faculty(facName,facFullTime,facClasses, \
         facExpertise1,facExpertise2,facExpertise3)) 
 
-"""Displays all faculty member objects"""
-for i in range(len(Facultylist)):
-    print Facultylist[i].display()
-    print
+# """Displays all faculty member objects"""
+# for i in range(len(Facultylist)):
+#     print Facultylist[i].display()
+#     print
 
 
 ################################# PART TWO #####################################
@@ -66,25 +66,20 @@ springCourses = []
 
 for i in annualList:
     if (i[4] == 'Summer'):
-        co = course.Course(i[0],i[1],i[2], i[3], i[4], i[5].replace(" ", ""), 'CSS')
-        summerCourses.append(co)
-        # print co.display()
-        # print
+        sumCo = course.Course(i[0],i[1],i[2], i[3], i[4], i[5].replace(" ", ""), 'CSS')
+        summerCourses.append(sumCo)
+
     if (i[4] == 'Autumn'):
-        co = course.Course(i[0],i[1],i[2], i[3], i[4], i[5].replace(" ", ""), 'CSS')
-        autumnCourses.append(co)
-        # print co.display()
-        # print
+        autCo = course.Course(i[0],i[1],i[2], i[3], i[4], i[5].replace(" ", ""), 'CSS')
+        autumnCourses.append(autCo)
+
     if (i[4] == 'Winter'):
-        co = course.Course(i[0],i[1],i[2], i[3], i[4], i[5].replace(" ", ""), 'CSS')
-        winterCourses.append(co)
-        # print co.display()
-        # print
+        winCo = course.Course(i[0],i[1],i[2], i[3], i[4], i[5].replace(" ", ""), 'CSS')
+        winterCourses.append(winCo)
+
     if (i[4] == 'Spring'):
-        co = course.Course(i[0],i[1],i[2], i[3], i[4], i[5].replace(" ", ""), 'CSS')
-        springCourses.append(co)
-        # print co.display()
-        # print
+        sprCo = course.Course(i[0],i[1],i[2], i[3], i[4], i[5].replace(" ", ""), 'CSS')
+        springCourses.append(sprCo)
 
 summer = quarter.Quarter(2016, 'Summer', summerCourses)
 autumn = quarter.Quarter(2016, 'Autumn', autumnCourses)
@@ -105,6 +100,8 @@ Part two uses schedule input file to fill lists of schedules by quarter
 
 nextYear.showStatistics()
 nextYear.optimalSchedule(nextYear.quarters[0])
-test = nextYear.instructors
+print nextYear.quarters[0].season
+for prof in nextYear.instructors:
+    prof.showClassSchedule(nextYear.quarters[0].season)
 
             

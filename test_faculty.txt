@@ -1,0 +1,5 @@
+Boyle	Y	5	1	Programming	SoftwareEngineering	None
+Franklin	Y	2	3	Cybersecurity	None	None
+Ing	Y	4	1	Writing	Databases	None
+Anscombe	Y	7.5	2	Programming	ScientificComputing	None
+Thomas	N	1	0	Teaching	None	None

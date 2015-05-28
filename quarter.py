@@ -46,3 +46,12 @@ class Quarter(object):
 				matchingCourses.append(courseInst)
 		# return the list of courses, empty or not
 		return matchingCourses
+
+
+
+
+
+
+
+
+		
