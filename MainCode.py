@@ -16,7 +16,7 @@ scheduleFile = open('classes.csv', 'r')
 
 ################################# PART ONE #####################################
 """
-Part one uses faculty input file to creat list of faculty members
+Part one uses faculty input file to create list of faculty members
 """        
 data = facFile.readlines()            #read in faculty file
 facFile.close()
@@ -91,7 +91,7 @@ print autumn.display()
 print winter.display()
 print spring.display()
 
-nextYear = schedule.Schedule([autumn, winter, spring, summer], Facultylist)
+nextYear = schedule.Schedule({'Autumn':autumn, 'Winter':winter, 'Spring':spring, 'Summer':summer}, Facultylist)
 
 ############################### PART THREE ####################################
 """
@@ -99,9 +99,14 @@ Part two uses schedule input file to fill lists of schedules by quarter
 """  
 
 nextYear.showStatistics()
-nextYear.optimalSchedule(nextYear.quarters[0])
-print nextYear.quarters[0].season
+nextYear.optimalSchedule(nextYear.quarters['Autumn'])
+nextYear.optimalSchedule(nextYear.quarters['Summer'])
+nextYear.optimalSchedule(nextYear.quarters['Spring'])
+nextYear.optimalSchedule(nextYear.quarters['Winter'])
+print nextYear.quarters['Autumn'].season
 for prof in nextYear.instructors:
-    prof.showClassSchedule(nextYear.quarters[0].season)
+    prof.showClassSchedule(nextYear.quarters['Autumn'].season)
+
+
 
             

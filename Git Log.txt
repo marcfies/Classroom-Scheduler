@@ -1,0 +1,1223 @@
+Last login: Wed May 27 18:24:17 on ttys000
+________________________________________________________________________________
+| ~ @ d-10-156-1-162 (Thompson) 
+| => ls
+Applications	Library		ThreadOS	gocodefewrfw	projectspank
+Desktop		Movies		ab_cattle	gocodeff
+Documents	Music		anaconda	loadgen
+Downloads	Pictures	gocode		monitor
+Dropbox		Public		gocodeBak	perltest.pl
+________________________________________________________________________________
+| ~ @ d-10-156-1-162 (Thompson) 
+| => cd Desktop/Classroom-Scheduler
+total 404
+-rw-r--r--@  1 Thompson  staff   6.0K May 27 17:28 .DS_Store
+drwxr-xr-x  16 Thompson  staff   544B May 27 19:50 .git/
+-rw-r--r--   1 Thompson  staff   7.0K May 20 21:42 CRS.py
+-rw-r--r--   1 Thompson  staff   3.3K May 27 19:41 MainCode.py
+-rw-r--r--@  1 Thompson  staff    37K May 20 21:42 Project Development Plan.pdf
+-rw-r--r--   1 Thompson  staff    22B May 20 21:42 README.md
+-rw-r--r--   1 Thompson  staff    19K May 20 21:42 SampleOutput.txt
+-rw-r-----@  1 Thompson  staff   7.2K May 27 17:28 classes.csv
+-rw-r--r--   1 Thompson  staff   845B May 27 18:19 course.py
+-rw-r--r--   1 Thompson  staff   1.2K May 27 18:27 course.pyc
+-rw-r--r--   1 Thompson  staff   911B May 27 19:21 course_test.py
+-rw-r--r--   1 Thompson  staff   195B May 27 17:51 course_test.pyc
+-rw-r--r--   1 Thompson  staff   2.6K May 27 19:50 faculty.py
+-rw-r--r--   1 Thompson  staff   2.6K May 27 19:54 faculty.pyc
+-rw-r--r--@  1 Thompson  staff   1.3K May 27 12:56 faculty.txt
+-rw-r--r--   1 Thompson  staff   9.7K May 20 21:42 faculty.xlsx
+-rw-r--r--   1 Thompson  staff   1.3K May 27 18:13 faculty_test.py
+-rw-r--r--   1 Thompson  staff   197B May 27 17:52 faculty_test.pyc
+-rw-r--r--   1 Thompson  staff   1.5K May 27 19:08 quarter.py
+-rw-r--r--   1 Thompson  staff   2.0K May 27 19:08 quarter.pyc
+-rw-r--r--   1 Thompson  staff   129B May 27 18:13 quarter_test.py
+-rw-r--r--   1 Thompson  staff   413B May 27 17:51 quarter_test.pyc
+-rw-r--r--   1 Thompson  staff   5.6K May 27 19:36 schedule.py
+-rw-r--r--   1 Thompson  staff   4.3K May 27 19:36 schedule.pyc
+-rw-r--r--@  1 Thompson  staff   197K May 27 01:27 schedule.txt
+-rw-r--r--   1 Thompson  staff    15K May 20 21:42 schedule.xlsx
+-rw-r--r--   1 Thompson  staff   339B May 27 17:34 test_courses.csv
+-rw-r--r--   1 Thompson  staff    90B May 27 18:13 test_engine.py
+-rw-r--r--   1 Thompson  staff   207B May 27 17:34 test_faculty.txt
+-rw-r--r--   1 Thompson  staff     0B May 26 07:14 trial.py
+________________________________________________________________________________
+| ~/Desktop/Classroom-Scheduler @ d-10-156-1-162 (Thompson) 
+| => git log
+commit 8e7fb110c2c418381234db84b59a0095ec78f795
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:44:15 2015 -0700
+
+    Expanded and formatted output for optimized schedules
+
+commit 119f7afc87d072b4e5630a8b385a98242c178455
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:26:42 2015 -0700
+
+    Expanded implementation for Optimization and implement framework for unit te
+
+commit 922837c99398014ba44fa721ddac4c9239b621e2
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 14:56:43 2015 -0700
+
+    Object Orienting and decoupling classes, implementation for schedule generat
+    preferred faculty expertises.
+
+commit f20808896bdf6ddad66c2eeaab4f0ceaf71db4b2
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:52:08 2015 -0700
+
+:
+commit 8e7fb110c2c418381234db84b59a0095ec78f795
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:44:15 2015 -0700
+
+    Expanded and formatted output for optimized schedules
+
+commit 119f7afc87d072b4e5630a8b385a98242c178455
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:26:42 2015 -0700
+
+    Expanded implementation for Optimization and implement framework for unit te
+
+commit 922837c99398014ba44fa721ddac4c9239b621e2
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 14:56:43 2015 -0700
+
+    Object Orienting and decoupling classes, implementation for schedule generat
+    preferred faculty expertises.
+
+commit f20808896bdf6ddad66c2eeaab4f0ceaf71db4b2
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:52:08 2015 -0700
+
+    Sample Output
+
+:
+commit 8e7fb110c2c418381234db84b59a0095ec78f795
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:44:15 2015 -0700
+
+    Expanded and formatted output for optimized schedules
+
+commit 119f7afc87d072b4e5630a8b385a98242c178455
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:26:42 2015 -0700
+
+    Expanded implementation for Optimization and implement framework for unit tes
+
+commit 922837c99398014ba44fa721ddac4c9239b621e2
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 14:56:43 2015 -0700
+
+    Object Orienting and decoupling classes, implementation for schedule generati
+    preferred faculty expertises.
+
+commit f20808896bdf6ddad66c2eeaab4f0ceaf71db4b2
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:52:08 2015 -0700
+
+    Sample Output
+
+:
+commit 8e7fb110c2c418381234db84b59a0095ec78f795
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:44:15 2015 -0700
+
+    Expanded and formatted output for optimized schedules
+
+commit 119f7afc87d072b4e5630a8b385a98242c178455
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:26:42 2015 -0700
+
+    Expanded implementation for Optimization and implement framework for unit tes
+
+commit 922837c99398014ba44fa721ddac4c9239b621e2
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 14:56:43 2015 -0700
+
+    Object Orienting and decoupling classes, implementation for schedule generati
+    preferred faculty expertises.
+
+commit f20808896bdf6ddad66c2eeaab4f0ceaf71db4b2
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:52:08 2015 -0700
+
+    Sample Output
+
+commit a2ade0228e0817f4cb16957b4096f4e243ca80fd
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:43:39 2015 -0700
+:
+commit 8e7fb110c2c418381234db84b59a0095ec78f795
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:44:15 2015 -0700
+
+    Expanded and formatted output for optimized schedules
+
+commit 119f7afc87d072b4e5630a8b385a98242c178455
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:26:42 2015 -0700
+
+    Expanded implementation for Optimization and implement framework for unit tes
+
+commit 922837c99398014ba44fa721ddac4c9239b621e2
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 14:56:43 2015 -0700
+
+    Object Orienting and decoupling classes, implementation for schedule generati
+    preferred faculty expertises.
+
+commit f20808896bdf6ddad66c2eeaab4f0ceaf71db4b2
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:52:08 2015 -0700
+
+    Sample Output
+
+commit a2ade0228e0817f4cb16957b4096f4e243ca80fd
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:43:39 2015 -0700
+
+    Classroom Scheduler
+
+:
+commit 8e7fb110c2c418381234db84b59a0095ec78f795
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:44:15 2015 -0700
+
+    Expanded and formatted output for optimized schedules
+
+commit 119f7afc87d072b4e5630a8b385a98242c178455
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:26:42 2015 -0700
+
+    Expanded implementation for Optimization and implement framework for unit testi
+
+commit 922837c99398014ba44fa721ddac4c9239b621e2
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 14:56:43 2015 -0700
+
+    Object Orienting and decoupling classes, implementation for schedule generation
+    preferred faculty expertises.
+
+commit f20808896bdf6ddad66c2eeaab4f0ceaf71db4b2
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:52:08 2015 -0700
+
+    Sample Output
+
+commit a2ade0228e0817f4cb16957b4096f4e243ca80fd
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:43:39 2015 -0700
+
+    Classroom Scheduler
+
+:
+commit 8e7fb110c2c418381234db84b59a0095ec78f795
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:44:15 2015 -0700
+
+    Expanded and formatted output for optimized schedules
+
+commit 119f7afc87d072b4e5630a8b385a98242c178455
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:26:42 2015 -0700
+
+    Expanded implementation for Optimization and implement framework for unit testi
+
+commit 922837c99398014ba44fa721ddac4c9239b621e2
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 14:56:43 2015 -0700
+
+    Object Orienting and decoupling classes, implementation for schedule generation
+    preferred faculty expertises.
+
+commit f20808896bdf6ddad66c2eeaab4f0ceaf71db4b2
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:52:08 2015 -0700
+
+    Sample Output
+
+commit a2ade0228e0817f4cb16957b4096f4e243ca80fd
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:43:39 2015 -0700
+
+    Classroom Scheduler
+
+commit 501fec28aa01a22ab72c045faef3f7dbbafb7d09
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:38:56 2015 -0700
+
+:
+commit 8e7fb110c2c418381234db84b59a0095ec78f795
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:44:15 2015 -0700
+
+    Expanded and formatted output for optimized schedules
+
+commit 119f7afc87d072b4e5630a8b385a98242c178455
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:26:42 2015 -0700
+
+    Expanded implementation for Optimization and implement framework for unit testin
+
+commit 922837c99398014ba44fa721ddac4c9239b621e2
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 14:56:43 2015 -0700
+
+    Object Orienting and decoupling classes, implementation for schedule generation,
+    preferred faculty expertises.
+
+commit f20808896bdf6ddad66c2eeaab4f0ceaf71db4b2
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:52:08 2015 -0700
+
+    Sample Output
+
+commit a2ade0228e0817f4cb16957b4096f4e243ca80fd
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:43:39 2015 -0700
+
+    Classroom Scheduler
+
+commit 501fec28aa01a22ab72c045faef3f7dbbafb7d09
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:38:56 2015 -0700
+
+:
+commit 8e7fb110c2c418381234db84b59a0095ec78f795
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:44:15 2015 -0700
+
+    Expanded and formatted output for optimized schedules
+
+commit 119f7afc87d072b4e5630a8b385a98242c178455
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:26:42 2015 -0700
+
+    Expanded implementation for Optimization and implement framework for unit testin
+
+commit 922837c99398014ba44fa721ddac4c9239b621e2
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 14:56:43 2015 -0700
+
+    Object Orienting and decoupling classes, implementation for schedule generation,
+    preferred faculty expertises.
+
+commit f20808896bdf6ddad66c2eeaab4f0ceaf71db4b2
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:52:08 2015 -0700
+
+    Sample Output
+
+commit a2ade0228e0817f4cb16957b4096f4e243ca80fd
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:43:39 2015 -0700
+
+    Classroom Scheduler
+
+commit 501fec28aa01a22ab72c045faef3f7dbbafb7d09
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:38:56 2015 -0700
+
+    Project Development Plan
+
+commit a3e2cbf92601b424cef0af88a1d76e58c03fb1b9
+Author: marcfies <marcfies@uw.edu>
+:
+commit 8e7fb110c2c418381234db84b59a0095ec78f795
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:44:15 2015 -0700
+
+    Expanded and formatted output for optimized schedules
+
+commit 119f7afc87d072b4e5630a8b385a98242c178455
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:26:42 2015 -0700
+
+    Expanded implementation for Optimization and implement framework for unit testing
+
+commit 922837c99398014ba44fa721ddac4c9239b621e2
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 14:56:43 2015 -0700
+
+    Object Orienting and decoupling classes, implementation for schedule generation, i
+    preferred faculty expertises.
+
+commit f20808896bdf6ddad66c2eeaab4f0ceaf71db4b2
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:52:08 2015 -0700
+
+    Sample Output
+
+commit a2ade0228e0817f4cb16957b4096f4e243ca80fd
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:43:39 2015 -0700
+
+    Classroom Scheduler
+
+commit 501fec28aa01a22ab72c045faef3f7dbbafb7d09
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:38:56 2015 -0700
+
+    Project Development Plan
+
+commit a3e2cbf92601b424cef0af88a1d76e58c03fb1b9
+Author: marcfies <marcfies@uw.edu>
+:
+commit 8e7fb110c2c418381234db84b59a0095ec78f795
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:44:15 2015 -0700
+
+    Expanded and formatted output for optimized schedules
+
+commit 119f7afc87d072b4e5630a8b385a98242c178455
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:26:42 2015 -0700
+
+    Expanded implementation for Optimization and implement framework for unit testing
+
+commit 922837c99398014ba44fa721ddac4c9239b621e2
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 14:56:43 2015 -0700
+
+    Object Orienting and decoupling classes, implementation for schedule generation, i
+    preferred faculty expertises.
+
+commit f20808896bdf6ddad66c2eeaab4f0ceaf71db4b2
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:52:08 2015 -0700
+
+    Sample Output
+
+commit a2ade0228e0817f4cb16957b4096f4e243ca80fd
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:43:39 2015 -0700
+
+    Classroom Scheduler
+
+commit 501fec28aa01a22ab72c045faef3f7dbbafb7d09
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:38:56 2015 -0700
+
+    Project Development Plan
+
+commit a3e2cbf92601b424cef0af88a1d76e58c03fb1b9
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:33:36 2015 -0700
+
+:
+commit 8e7fb110c2c418381234db84b59a0095ec78f795
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:44:15 2015 -0700
+
+    Expanded and formatted output for optimized schedules
+
+commit 119f7afc87d072b4e5630a8b385a98242c178455
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:26:42 2015 -0700
+
+    Expanded implementation for Optimization and implement framework for unit testing
+
+commit 922837c99398014ba44fa721ddac4c9239b621e2
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 14:56:43 2015 -0700
+
+    Object Orienting and decoupling classes, implementation for schedule generation, im
+    preferred faculty expertises.
+
+commit f20808896bdf6ddad66c2eeaab4f0ceaf71db4b2
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:52:08 2015 -0700
+
+    Sample Output
+
+commit a2ade0228e0817f4cb16957b4096f4e243ca80fd
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:43:39 2015 -0700
+
+    Classroom Scheduler
+
+commit 501fec28aa01a22ab72c045faef3f7dbbafb7d09
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:38:56 2015 -0700
+
+    Project Development Plan
+
+commit a3e2cbf92601b424cef0af88a1d76e58c03fb1b9
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:33:36 2015 -0700
+
+:
+commit 8e7fb110c2c418381234db84b59a0095ec78f795
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:44:15 2015 -0700
+
+    Expanded and formatted output for optimized schedules
+
+commit 119f7afc87d072b4e5630a8b385a98242c178455
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:26:42 2015 -0700
+
+    Expanded implementation for Optimization and implement framework for unit testing
+
+commit 922837c99398014ba44fa721ddac4c9239b621e2
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 14:56:43 2015 -0700
+
+    Object Orienting and decoupling classes, implementation for schedule generation, im
+    preferred faculty expertises.
+
+commit f20808896bdf6ddad66c2eeaab4f0ceaf71db4b2
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:52:08 2015 -0700
+
+    Sample Output
+
+commit a2ade0228e0817f4cb16957b4096f4e243ca80fd
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:43:39 2015 -0700
+
+    Classroom Scheduler
+
+commit 501fec28aa01a22ab72c045faef3f7dbbafb7d09
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:38:56 2015 -0700
+
+    Project Development Plan
+
+commit a3e2cbf92601b424cef0af88a1d76e58c03fb1b9
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:33:36 2015 -0700
+
+    Input Files
+
+:
+commit 8e7fb110c2c418381234db84b59a0095ec78f795
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:44:15 2015 -0700
+
+    Expanded and formatted output for optimized schedules
+
+commit 119f7afc87d072b4e5630a8b385a98242c178455
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:26:42 2015 -0700
+
+    Expanded implementation for Optimization and implement framework for unit testing
+
+commit 922837c99398014ba44fa721ddac4c9239b621e2
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 14:56:43 2015 -0700
+
+    Object Orienting and decoupling classes, implementation for schedule generation, imp
+    preferred faculty expertises.
+
+commit f20808896bdf6ddad66c2eeaab4f0ceaf71db4b2
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:52:08 2015 -0700
+
+    Sample Output
+
+commit a2ade0228e0817f4cb16957b4096f4e243ca80fd
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:43:39 2015 -0700
+
+    Classroom Scheduler
+
+commit 501fec28aa01a22ab72c045faef3f7dbbafb7d09
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:38:56 2015 -0700
+
+    Project Development Plan
+
+commit a3e2cbf92601b424cef0af88a1d76e58c03fb1b9
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:33:36 2015 -0700
+
+    Input Files
+
+:
+commit 8e7fb110c2c418381234db84b59a0095ec78f795
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:44:15 2015 -0700
+
+    Expanded and formatted output for optimized schedules
+
+commit 119f7afc87d072b4e5630a8b385a98242c178455
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:26:42 2015 -0700
+
+    Expanded implementation for Optimization and implement framework for unit testing
+
+commit 922837c99398014ba44fa721ddac4c9239b621e2
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 14:56:43 2015 -0700
+
+    Object Orienting and decoupling classes, implementation for schedule generation, imp
+    preferred faculty expertises.
+
+commit f20808896bdf6ddad66c2eeaab4f0ceaf71db4b2
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:52:08 2015 -0700
+
+    Sample Output
+
+commit a2ade0228e0817f4cb16957b4096f4e243ca80fd
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:43:39 2015 -0700
+
+    Classroom Scheduler
+
+commit 501fec28aa01a22ab72c045faef3f7dbbafb7d09
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:38:56 2015 -0700
+
+    Project Development Plan
+
+commit a3e2cbf92601b424cef0af88a1d76e58c03fb1b9
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:33:36 2015 -0700
+
+    Input Files
+
+commit b04ad8a2fbe51295acda479f0866d09ae0d81007
+:
+commit 8e7fb110c2c418381234db84b59a0095ec78f795
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:44:15 2015 -0700
+
+    Expanded and formatted output for optimized schedules
+
+commit 119f7afc87d072b4e5630a8b385a98242c178455
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:26:42 2015 -0700
+
+    Expanded implementation for Optimization and implement framework for unit testing
+
+commit 922837c99398014ba44fa721ddac4c9239b621e2
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 14:56:43 2015 -0700
+
+    Object Orienting and decoupling classes, implementation for schedule generation, imp
+    preferred faculty expertises.
+
+commit f20808896bdf6ddad66c2eeaab4f0ceaf71db4b2
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:52:08 2015 -0700
+
+    Sample Output
+
+commit a2ade0228e0817f4cb16957b4096f4e243ca80fd
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:43:39 2015 -0700
+
+    Classroom Scheduler
+
+commit 501fec28aa01a22ab72c045faef3f7dbbafb7d09
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:38:56 2015 -0700
+
+    Project Development Plan
+
+commit a3e2cbf92601b424cef0af88a1d76e58c03fb1b9
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:33:36 2015 -0700
+
+    Input Files
+
+commit b04ad8a2fbe51295acda479f0866d09ae0d81007
+Author: marcfies <marcfies@uw.edu>
+:
+commit 8e7fb110c2c418381234db84b59a0095ec78f795
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:44:15 2015 -0700
+
+    Expanded and formatted output for optimized schedules
+
+commit 119f7afc87d072b4e5630a8b385a98242c178455
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:26:42 2015 -0700
+
+    Expanded implementation for Optimization and implement framework for unit testing
+
+commit 922837c99398014ba44fa721ddac4c9239b621e2
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 14:56:43 2015 -0700
+
+    Object Orienting and decoupling classes, implementation for schedule generation, impl
+    preferred faculty expertises.
+
+commit f20808896bdf6ddad66c2eeaab4f0ceaf71db4b2
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:52:08 2015 -0700
+
+    Sample Output
+
+commit a2ade0228e0817f4cb16957b4096f4e243ca80fd
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:43:39 2015 -0700
+
+    Classroom Scheduler
+
+commit 501fec28aa01a22ab72c045faef3f7dbbafb7d09
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:38:56 2015 -0700
+
+    Project Development Plan
+
+commit a3e2cbf92601b424cef0af88a1d76e58c03fb1b9
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:33:36 2015 -0700
+
+    Input Files
+
+commit b04ad8a2fbe51295acda479f0866d09ae0d81007
+Author: marcfies <marcfies@uw.edu>
+:
+commit 8e7fb110c2c418381234db84b59a0095ec78f795
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:44:15 2015 -0700
+
+    Expanded and formatted output for optimized schedules
+
+commit 119f7afc87d072b4e5630a8b385a98242c178455
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:26:42 2015 -0700
+
+    Expanded implementation for Optimization and implement framework for unit testing
+
+commit 922837c99398014ba44fa721ddac4c9239b621e2
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 14:56:43 2015 -0700
+
+    Object Orienting and decoupling classes, implementation for schedule generation, impl
+    preferred faculty expertises.
+
+commit f20808896bdf6ddad66c2eeaab4f0ceaf71db4b2
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:52:08 2015 -0700
+
+    Sample Output
+
+commit a2ade0228e0817f4cb16957b4096f4e243ca80fd
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:43:39 2015 -0700
+
+    Classroom Scheduler
+
+commit 501fec28aa01a22ab72c045faef3f7dbbafb7d09
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:38:56 2015 -0700
+
+    Project Development Plan
+
+commit a3e2cbf92601b424cef0af88a1d76e58c03fb1b9
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:33:36 2015 -0700
+
+    Input Files
+
+commit b04ad8a2fbe51295acda479f0866d09ae0d81007
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:28:24 2015 -0700
+:
+commit 8e7fb110c2c418381234db84b59a0095ec78f795
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:44:15 2015 -0700
+
+    Expanded and formatted output for optimized schedules
+
+commit 119f7afc87d072b4e5630a8b385a98242c178455
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:26:42 2015 -0700
+
+    Expanded implementation for Optimization and implement framework for unit testing
+
+commit 922837c99398014ba44fa721ddac4c9239b621e2
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 14:56:43 2015 -0700
+
+    Object Orienting and decoupling classes, implementation for schedule generation, impl
+    preferred faculty expertises.
+
+commit f20808896bdf6ddad66c2eeaab4f0ceaf71db4b2
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:52:08 2015 -0700
+
+    Sample Output
+
+commit a2ade0228e0817f4cb16957b4096f4e243ca80fd
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:43:39 2015 -0700
+
+    Classroom Scheduler
+
+commit 501fec28aa01a22ab72c045faef3f7dbbafb7d09
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:38:56 2015 -0700
+
+    Project Development Plan
+
+commit a3e2cbf92601b424cef0af88a1d76e58c03fb1b9
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:33:36 2015 -0700
+
+    Input Files
+
+commit b04ad8a2fbe51295acda479f0866d09ae0d81007
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:28:24 2015 -0700
+
+:
+commit 8e7fb110c2c418381234db84b59a0095ec78f795
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:44:15 2015 -0700
+
+    Expanded and formatted output for optimized schedules
+
+commit 119f7afc87d072b4e5630a8b385a98242c178455
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:26:42 2015 -0700
+
+    Expanded implementation for Optimization and implement framework for unit testing
+
+commit 922837c99398014ba44fa721ddac4c9239b621e2
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 14:56:43 2015 -0700
+
+    Object Orienting and decoupling classes, implementation for schedule generation, impl
+    preferred faculty expertises.
+
+commit f20808896bdf6ddad66c2eeaab4f0ceaf71db4b2
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:52:08 2015 -0700
+
+    Sample Output
+
+commit a2ade0228e0817f4cb16957b4096f4e243ca80fd
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:43:39 2015 -0700
+
+    Classroom Scheduler
+
+commit 501fec28aa01a22ab72c045faef3f7dbbafb7d09
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:38:56 2015 -0700
+
+    Project Development Plan
+
+commit a3e2cbf92601b424cef0af88a1d76e58c03fb1b9
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:33:36 2015 -0700
+
+    Input Files
+
+commit b04ad8a2fbe51295acda479f0866d09ae0d81007
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:28:24 2015 -0700
+
+    Main Code
+:
+commit 8e7fb110c2c418381234db84b59a0095ec78f795
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:44:15 2015 -0700
+
+    Expanded and formatted output for optimized schedules
+
+commit 119f7afc87d072b4e5630a8b385a98242c178455
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:26:42 2015 -0700
+
+    Expanded implementation for Optimization and implement framework for unit testing
+
+commit 922837c99398014ba44fa721ddac4c9239b621e2
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 14:56:43 2015 -0700
+
+    Object Orienting and decoupling classes, implementation for schedule generation, impl
+    preferred faculty expertises.
+
+commit f20808896bdf6ddad66c2eeaab4f0ceaf71db4b2
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:52:08 2015 -0700
+
+    Sample Output
+
+commit a2ade0228e0817f4cb16957b4096f4e243ca80fd
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:43:39 2015 -0700
+
+    Classroom Scheduler
+
+commit 501fec28aa01a22ab72c045faef3f7dbbafb7d09
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:38:56 2015 -0700
+
+    Project Development Plan
+
+commit a3e2cbf92601b424cef0af88a1d76e58c03fb1b9
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:33:36 2015 -0700
+
+    Input Files
+
+commit b04ad8a2fbe51295acda479f0866d09ae0d81007
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:28:24 2015 -0700
+
+    Main Code
+    
+:
+commit 8e7fb110c2c418381234db84b59a0095ec78f795
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:44:15 2015 -0700
+
+    Expanded and formatted output for optimized schedules
+
+commit 119f7afc87d072b4e5630a8b385a98242c178455
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:26:42 2015 -0700
+
+    Expanded implementation for Optimization and implement framework for unit testing
+
+commit 922837c99398014ba44fa721ddac4c9239b621e2
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 14:56:43 2015 -0700
+
+    Object Orienting and decoupling classes, implementation for schedule generation, impl
+    preferred faculty expertises.
+
+commit f20808896bdf6ddad66c2eeaab4f0ceaf71db4b2
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:52:08 2015 -0700
+
+    Sample Output
+
+commit a2ade0228e0817f4cb16957b4096f4e243ca80fd
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:43:39 2015 -0700
+
+    Classroom Scheduler
+
+commit 501fec28aa01a22ab72c045faef3f7dbbafb7d09
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:38:56 2015 -0700
+
+    Project Development Plan
+
+commit a3e2cbf92601b424cef0af88a1d76e58c03fb1b9
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:33:36 2015 -0700
+
+    Input Files
+
+commit b04ad8a2fbe51295acda479f0866d09ae0d81007
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:28:24 2015 -0700
+
+    Main Code
+    
+    Main code for classroom scheduler
+
+commit 12a37a55bebc0712e0f36a6eb048ba4e217b2cde
+Author: marcfies <marcfies@uw.edu>
+:
+commit 8e7fb110c2c418381234db84b59a0095ec78f795
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:44:15 2015 -0700
+
+    Expanded and formatted output for optimized schedules
+
+commit 119f7afc87d072b4e5630a8b385a98242c178455
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:26:42 2015 -0700
+
+    Expanded implementation for Optimization and implement framework for unit testing
+
+commit 922837c99398014ba44fa721ddac4c9239b621e2
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 14:56:43 2015 -0700
+
+    Object Orienting and decoupling classes, implementation for schedule generation, impl
+    preferred faculty expertises.
+
+commit f20808896bdf6ddad66c2eeaab4f0ceaf71db4b2
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:52:08 2015 -0700
+
+    Sample Output
+
+commit a2ade0228e0817f4cb16957b4096f4e243ca80fd
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:43:39 2015 -0700
+
+    Classroom Scheduler
+
+commit 501fec28aa01a22ab72c045faef3f7dbbafb7d09
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:38:56 2015 -0700
+
+    Project Development Plan
+
+commit a3e2cbf92601b424cef0af88a1d76e58c03fb1b9
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:33:36 2015 -0700
+
+    Input Files
+
+commit b04ad8a2fbe51295acda479f0866d09ae0d81007
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:28:24 2015 -0700
+
+    Main Code
+    
+    Main code for classroom scheduler
+
+commit 12a37a55bebc0712e0f36a6eb048ba4e217b2cde
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:20:53 2015 -0700
+
+    README.md
+~
+~
+(END) 
+commit 8e7fb110c2c418381234db84b59a0095ec78f795
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:44:15 2015 -0700
+
+    Expanded and formatted output for optimized schedules
+
+commit 119f7afc87d072b4e5630a8b385a98242c178455
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:26:42 2015 -0700
+
+    Expanded implementation for Optimization and implement framework for unit testing
+
+commit 922837c99398014ba44fa721ddac4c9239b621e2
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 14:56:43 2015 -0700
+
+    Object Orienting and decoupling classes, implementation for schedule generation, impl
+    preferred faculty expertises.
+
+commit f20808896bdf6ddad66c2eeaab4f0ceaf71db4b2
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:52:08 2015 -0700
+
+    Sample Output
+
+commit a2ade0228e0817f4cb16957b4096f4e243ca80fd
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:43:39 2015 -0700
+
+    Classroom Scheduler
+
+commit 501fec28aa01a22ab72c045faef3f7dbbafb7d09
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:38:56 2015 -0700
+
+    Project Development Plan
+
+commit a3e2cbf92601b424cef0af88a1d76e58c03fb1b9
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:33:36 2015 -0700
+
+    Input Files
+
+commit b04ad8a2fbe51295acda479f0866d09ae0d81007
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:28:24 2015 -0700
+
+    Main Code
+    
+    Main code for classroom scheduler
+
+commit 12a37a55bebc0712e0f36a6eb048ba4e217b2cde
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:20:53 2015 -0700
+
+    README.md
+~
+~
+~
+(END) 
+commit 8e7fb110c2c418381234db84b59a0095ec78f795
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:44:15 2015 -0700
+
+    Expanded and formatted output for optimized schedules
+
+commit 119f7afc87d072b4e5630a8b385a98242c178455
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:26:42 2015 -0700
+
+    Expanded implementation for Optimization and implement framework for unit testing
+
+commit 922837c99398014ba44fa721ddac4c9239b621e2
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 14:56:43 2015 -0700
+
+    Object Orienting and decoupling classes, implementation for schedule generation, imple
+    preferred faculty expertises.
+
+commit f20808896bdf6ddad66c2eeaab4f0ceaf71db4b2
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:52:08 2015 -0700
+
+    Sample Output
+
+commit a2ade0228e0817f4cb16957b4096f4e243ca80fd
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:43:39 2015 -0700
+
+    Classroom Scheduler
+
+commit 501fec28aa01a22ab72c045faef3f7dbbafb7d09
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:38:56 2015 -0700
+
+    Project Development Plan
+
+commit a3e2cbf92601b424cef0af88a1d76e58c03fb1b9
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:33:36 2015 -0700
+
+    Input Files
+
+commit b04ad8a2fbe51295acda479f0866d09ae0d81007
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:28:24 2015 -0700
+
+    Main Code
+    
+    Main code for classroom scheduler
+
+commit 12a37a55bebc0712e0f36a6eb048ba4e217b2cde
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:20:53 2015 -0700
+
+    README.md
+~
+~
+~
+(END) 
+commit 8e7fb110c2c418381234db84b59a0095ec78f795
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:44:15 2015 -0700
+
+    Expanded and formatted output for optimized schedules
+
+commit 119f7afc87d072b4e5630a8b385a98242c178455
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:26:42 2015 -0700
+
+    Expanded implementation for Optimization and implement framework for unit testing
+
+commit 922837c99398014ba44fa721ddac4c9239b621e2
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 14:56:43 2015 -0700
+
+    Object Orienting and decoupling classes, implementation for schedule generation, implem
+    preferred faculty expertises.
+
+commit f20808896bdf6ddad66c2eeaab4f0ceaf71db4b2
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:52:08 2015 -0700
+
+    Sample Output
+
+commit a2ade0228e0817f4cb16957b4096f4e243ca80fd
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:43:39 2015 -0700
+
+    Classroom Scheduler
+
+commit 501fec28aa01a22ab72c045faef3f7dbbafb7d09
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:38:56 2015 -0700
+
+    Project Development Plan
+
+commit a3e2cbf92601b424cef0af88a1d76e58c03fb1b9
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:33:36 2015 -0700
+
+    Input Files
+
+commit b04ad8a2fbe51295acda479f0866d09ae0d81007
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:28:24 2015 -0700
+
+    Main Code
+    
+    Main code for classroom scheduler
+
+commit 12a37a55bebc0712e0f36a6eb048ba4e217b2cde
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:20:53 2015 -0700
+
+    README.md
+~
+~
+~
+(END) 
+commit 8e7fb110c2c418381234db84b59a0095ec78f795
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:44:15 2015 -0700
+
+    Expanded and formatted output for optimized schedules
+
+commit 119f7afc87d072b4e5630a8b385a98242c178455
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 19:26:42 2015 -0700
+
+    Expanded implementation for Optimization and implement framework for unit testing
+
+commit 922837c99398014ba44fa721ddac4c9239b621e2
+Author: Jeffrey Thompson <Thompson@d-10-156-1-162.dhcp4.washington.edu>
+Date:   Wed May 27 14:56:43 2015 -0700
+
+    Object Orienting and decoupling classes, implementation for schedule generation, impleme
+    preferred faculty expertises.
+
+commit f20808896bdf6ddad66c2eeaab4f0ceaf71db4b2
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:52:08 2015 -0700
+
+    Sample Output
+
+commit a2ade0228e0817f4cb16957b4096f4e243ca80fd
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:43:39 2015 -0700
+
+    Classroom Scheduler
+
+commit 501fec28aa01a22ab72c045faef3f7dbbafb7d09
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:38:56 2015 -0700
+
+    Project Development Plan
+
+commit a3e2cbf92601b424cef0af88a1d76e58c03fb1b9
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:33:36 2015 -0700
+
+    Input Files
+
+commit b04ad8a2fbe51295acda479f0866d09ae0d81007
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:28:24 2015 -0700
+
+    Main Code
+    
+    Main code for classroom scheduler
+
+commit 12a37a55bebc0712e0f36a6eb048ba4e217b2cde
+Author: marcfies <marcfies@uw.edu>
+Date:   Wed May 20 20:20:53 2015 -0700
+
+    README.md
+~
+~
+~
+(END) 
