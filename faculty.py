@@ -12,7 +12,12 @@ class Faculty(object):
         self.expertise1 = expertise1
         self.expertise2 = expertise2
         self.expertise3 = expertise3
-        self.courses = [] 
+        self.courses = {'Summer':[],'Autumn':[],'Winter':[],'Spring':[]}
+        self.maxClasses = 4
+        if (self.fullTime == 'Y'):
+            self.maxClasses = 4
+        elif (self.fullTime == 'N'):
+            self.maxClasses = 2
         
     def display(self):
         return 'Faculty Name: ' + self.name \
@@ -20,6 +25,16 @@ class Faculty(object):
             + ', Faculty member can teach ' + self.numClasses  + ' class(es)'\
             + ' with expertise in ' + self.expertise1 + ', ' \
             + self.expertise2 + ' and ' + self.expertise3
+
+    def totalCourses(self):
+        """ returns the number of classes currently assigned to for the year
+        """
+        count = 0.0
+        for season in self.courses:
+            count += len(self.courses[season])
+
+        return count
+
 
     def addCourse(self, newCourse):
         """ Attempts to add a course to be taught for the quarter
@@ -32,14 +47,36 @@ class Faculty(object):
                         False on failure due to space limits or time clash
         """
 
-        # check that the faculty is able to teach another class this quarter
-        filled = float(len(self.courses)) + 1.0
+        # check that the faculty is able to teach another class this year
+        yearFilled = float(self.totalCourses()) + 1.0
+        # check that the quarter is filled
+        quarterFilled = float(len(self.courses[newCourse.quarter]))
+        if quarterFilled >= self.maxClasses:
+            return False
+
         total = float(self.numClasses)
-        if (filled <= total):
+        if (yearFilled <= total):
             # print ((str(filled)) + ' ' + str(total) + '\n')
             # TODO: Check to confirm no two courses overlap time, and handle
             #       appropriately if it could be scheduled better
-            self.courses.append(newCourse)
+
+            # go through currently assigned courses for the quarter
+            for t in self.courses[newCourse.quarter]:
+                if ((newCourse.startTime >= t.startTime) & (newCourse.startTime <= t.endTime)):
+                
+                # if (newCourse.startTime == t.startTime):
+                    tdays = t.day.lower().split('/')
+                    newdays = newCourse.day.lower().split('/')
+                    for n in tdays:
+                        for p in newdays:
+                            if (str(n) == str(p)):
+                                return False
+
+                else:
+                    self.courses[newCourse.quarter].append(newCourse)
+                    return True
+            
+            self.courses[newCourse.quarter] = [newCourse]
             return True
         else:
             # return false on failed addition to this faculty's schedule
@@ -55,13 +92,23 @@ class Faculty(object):
                 TODO: Add visualization of this schedule to show a weekly
                       schedule
         """
-        if (len(self.courses) > 0):
+        
+        if (len(self.courses[quarter]) > 0):
             print '-----------------------------------------------------------'
-            print self.name + '\n'
-
-            for s in self.courses:
-                if (s.quarter == quarter):
-                    print s.courseNumber
+            print self.name + '\n' + str(self.fullTime)
+            if (self.courses.has_key(quarter)):
+                for s in self.courses[quarter]:
+                    if (s.quarter == quarter):
+                        print str(s.courseNumber) +' '+ str(s.startTime) + ' '+ str(s.endTime) + ' ' + str(s.day)
+                print
+        else:
+            print '-----------------------------------------------------------'
+            print self.name + '\n' + str(self.fullTime) 
+            print self.expertise1
+            print self.expertise2
+            print self.expertise3
+            print self.maxClasses
+            print self.totalCourses()
             print
 
         # loop through all courses assigned to the faculty

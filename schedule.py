@@ -20,9 +20,27 @@ class Schedule(object):
 		skills = self.expertiseAvailability()
 		for skill in skills:
 			print str(skill[0]) + ' ' + skill[1]
-		# disp = N.array(self.expertiseAvailability(), dtype='O')
-		# print disp
+		disp = N.array(self.expertiseAvailability(), dtype='O')
+		print disp
+		self.allocateFacultyTime()
+
+	def allocateFacultyTime(self):
+		""" sets the number of courses each member of the faculty should teach
+			per quarter
+		"""
+		# get faculty skill prevalence
+		# [(2, 'Databases'), (2, 'Graphics')]
+		order = self.expertiseAvailability()
 		
+		springNeeds = self.quarters['Spring'].getExpertiseNeeds()
+		# print springNeeds
+
+
+		# for experTuple in range(len(order)):
+			# if the quarter has classes needing this skill
+			# if (needs.has_key(order[experTuple][1])):
+
+
 
 	def visualize(self):
 		pass
@@ -64,6 +82,20 @@ class Schedule(object):
 		pool = self.getExperts(expertise)
 		index = random.randint(0,len(pool))
 		return pool[index]
+
+	def getExpertCommitment(self, expertise):
+		""" returns a generated prediction of the number of courses available
+			to be taught in one quarter for an expertise
+		"""
+		experts = self.getExperts(expertise)
+		totalClasses = 0
+
+		if (len(experts) != 0):
+			for expert in experts:
+				totalClasses += 1
+				# TODO: account for full-time or not
+
+
 
 
 	def expertiseAvailability(self):
@@ -133,9 +165,10 @@ class Schedule(object):
 			for course in quarter.getPreferredExpertise(availability[expertiseTuple][1]):
 				
 				# attempt to assign the course to each qualified professor 
+				# TODO: Randomize and distribute the classes among more faculty
 				isAssigned = False
-				profIndex = 0
 				potentialProfs = self.getExperts(availability[expertiseTuple][1])
+				profIndex = N.random.randint(0, (len(potentialProfs) -1))
 				while isAssigned == False:
 					# create a list of professors with the specific expertise
 					potentialProfs = self.getExperts(availability[expertiseTuple][1])
@@ -161,14 +194,18 @@ class Schedule(object):
 						else:
 							break
 		# go back over courses left unassigned and assign to whoever has time
+		c = 0
 		for rest in quarter.courses:
 			if (rest.isAssigned != True):
 				# for now, simply go through all potentially available faculty
-				for free in self.instructors:
-					if (free.addCourse(rest)):
-						# mark as assigned and end search
-						rest.isAssigned = True
-						break
+				# for free in self.instructors:
+				print rest.courseNumber + ' ' + rest.prefExpertise
+				c += 1
+					# if (free.addCourse(rest)):
+					# 	# mark as assigned and end search
+					# 	rest.isAssigned = True
+					# 	break
+		print c
 
 
 

@@ -197,7 +197,3 @@ def displayAll(list):
 print displayAll(winterList)    #display all summer courses
 print springList[-1].courseNumber
 print springList[-1].day
-
-total = len(winterList) + len(summerList) + len(autumnList) + len(springList)
-
-print total

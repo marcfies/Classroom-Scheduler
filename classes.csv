@@ -110,7 +110,7 @@ Course,Time,Day,Cap,Quarter,Expertise
 301B,1315-1515,T/Th,30,Winter,Writing
 301B,1530-1730,T/Th,30,Spring,Writing
 301C,1745-1945,T/Th,30,Autumn,Writing
-301C,845 -1045,M/W,30,Winter,Writing
+301C,845-1045,M/W,30,Winter,Writing
 342A,1745-1945,M/W,65,Autumn,Programming
 342A,1745-1945,M/W,45,Winter,Programming
 342A,1530-1730,M/W,45,Spring,Programming

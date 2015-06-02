@@ -47,7 +47,19 @@ class Quarter(object):
 		# return the list of courses, empty or not
 		return matchingCourses
 
+	def getExpertiseNeeds(self):
+		""" returns a dictionary of all the expertises needed this quarter and
+			their frequency
+		"""
+		exNeeds = {}
 
+		for cour in self.courses:
+			if (exNeeds.has_key(cour.prefExpertise)):
+				exNeeds[cour.prefExpertise] += 1
+			else:
+				exNeeds[cour.prefExpertise] = 1
+
+		return exNeeds
 
 
 
