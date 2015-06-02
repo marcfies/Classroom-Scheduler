@@ -27,3 +27,5 @@ Yttrium	N	0.5	0	Graphics	SoftwareEngineering	None
 Zelda	N	2	0	Graphics	SoftwareEngineering	None
 Zorro	N	1	1	OperatingSystems	SoftwareEngineering	None
 Zane	N	1.5	2	Programming	None	None
+Newbie Y 4 2 Hardware Programming Graphics
+Hireme N 2 0 OperatingSystems SoftwareEngineering None
