@@ -12,7 +12,6 @@ facFile = open('faculty.txt', 'r')
 #scheduleFile is input file for CSS schedule
 scheduleFile = open('classes.csv', 'r')
 ################################USER INPUT######################################    
-    
 
 ################################# PART ONE #####################################
 """
@@ -39,11 +38,6 @@ for i in range(len(dataSplit)):
     facExpertise3 = dataSplit2[6]
     Facultylist.append(faculty.Faculty(facName,facFullTime,facClasses, \
         facExpertise1,facExpertise2,facExpertise3)) 
-
-# """Displays all faculty member objects"""
-# for i in range(len(Facultylist)):
-#     print Facultylist[i].display()
-#     print
 
 
 ################################# PART TWO #####################################
@@ -81,6 +75,11 @@ for i in annualList:
         sprCo = course.Course(i[0],i[1],i[2], i[3], i[4], i[5].replace(" ", ""), 'CSS')
         springCourses.append(sprCo)
 
+summerQuarters = []
+autumnQuarters = []
+winterQuarters = []
+springQuarters = []
+
 summer = quarter.Quarter(2016, 'Summer', summerCourses)
 autumn = quarter.Quarter(2016, 'Autumn', autumnCourses)
 winter = quarter.Quarter(2016, 'Winter', winterCourses)
@@ -94,6 +93,8 @@ print spring.display()
 nextYear = schedule.Schedule({'Autumn':autumn, 'Winter':winter, 'Spring':spring, 'Summer':summer}, Facultylist)
 
 ############################### PART THREE ####################################
+
+
 """
 Part two uses schedule input file to fill lists of schedules by quarter
 """  
@@ -103,9 +104,15 @@ nextYear.optimalSchedule(nextYear.quarters['Autumn'])
 nextYear.optimalSchedule(nextYear.quarters['Summer'])
 nextYear.optimalSchedule(nextYear.quarters['Spring'])
 nextYear.optimalSchedule(nextYear.quarters['Winter'])
+nextYear.showFacultyAvailability()
+
+print
 print nextYear.quarters['Autumn'].season
+
 for prof in nextYear.instructors:
     prof.showClassSchedule(nextYear.quarters['Autumn'].season)
+
+
 
 
 

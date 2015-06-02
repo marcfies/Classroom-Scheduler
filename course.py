@@ -21,6 +21,20 @@ class Course(object):
         self.startTime = duration[0]
         self.endTime = duration[1]
 
+    def display(self):
+        """ Displays the formatted relevant information for the course
+
+            Output:
+            
+        """
+        return 'Course Number: ' + self.courseNumber + '\nTime: ' + \
+            self.time + '\nDay: ' + self.day + '\nCap: ' + self.cap + \
+            '\nTypeOfClass: ' + self.typeOfClass + '\nRelated Expertise: ' + \
+            self.prefExpertise
+
+    def resetCourse(self):
+        self.isAssigned = False
+
     def parse_time(self, timeString):
         """ returns an int tuple of military start and end times
         """
@@ -28,19 +42,4 @@ class Course(object):
             times = timeString.split('-')
             return times
         else:
-            return [0000,0000]
-
-
-    def display(self):
-        """ Displays the formatted relevant information for the course
-
-            Output:
-                
-
-        """
-        return 'Course Number: ' + self.courseNumber + '\nTime: ' + \
-            self.time + '\nDay: ' + self.day + '\nCap: ' + self.cap + \
-            '\nTypeOfClass: ' + self.typeOfClass + '\nRelated Expertise: ' + \
-            self.prefExpertise
-
-                           
+            return [0000,0000]    

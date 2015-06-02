@@ -4,7 +4,6 @@ import random
 
 class Schedule(object):
 	"""
-
 	"""
 	def __init__(self, quarters, instructors):
 		self.quarters = quarters
@@ -16,13 +15,21 @@ class Schedule(object):
 			Output:
 				Prints statistics to console 
 		"""
+		#======================================================================
+		# Print Faculty Stats
 		print 'Faculty members qualified to be considered an expert in a field'
 		skills = self.expertiseAvailability()
+		# loop through the skills to print stats
 		for skill in skills:
 			print str(skill[0]) + ' ' + skill[1]
-		disp = N.array(self.expertiseAvailability(), dtype='O')
-		print disp
-		self.allocateFacultyTime()
+		# self.allocateFacultyTime()
+		print
+		# loop through total faculty support
+		courseCapacity = 0.0
+		for instruct in self.instructors:
+			courseCapacity += float(instruct.numClasses)
+		print courseCapacity
+
 
 	def allocateFacultyTime(self):
 		""" sets the number of courses each member of the faculty should teach
@@ -40,10 +47,14 @@ class Schedule(object):
 			# if the quarter has classes needing this skill
 			# if (needs.has_key(order[experTuple][1])):
 
-
-
 	def visualize(self):
 		pass
+
+	def resetTrial(self):
+		for al in self.instructors:
+			al.resetFaculty()
+		for seas in self.quarters:
+			seas.resetQuarter()
 
 	def getExperts(self, expertise):
 		""" Returns a list of all current faculty with the given expertise
@@ -96,8 +107,6 @@ class Schedule(object):
 				# TODO: account for full-time or not
 
 
-
-
 	def expertiseAvailability(self):
 		""" A list of available faculty expertise ordered least to most common
 
@@ -145,7 +154,6 @@ class Schedule(object):
 		# sort the list by occurrences and return
 		return sorted(priorities)
 
-
 	def optimalSchedule(self, quarter):
 		""" Determines and sets the values of the schedule instance to form
 			a schedule that best utilizes faculty expertise
@@ -168,10 +176,10 @@ class Schedule(object):
 				# TODO: Randomize and distribute the classes among more faculty
 				isAssigned = False
 				potentialProfs = self.getExperts(availability[expertiseTuple][1])
-				profIndex = N.random.randint(0, (len(potentialProfs) -1))
 				while isAssigned == False:
+					profIndex = N.random.randint(0, (len(potentialProfs) -1))
 					# create a list of professors with the specific expertise
-					potentialProfs = self.getExperts(availability[expertiseTuple][1])
+					# potentialProfs = self.getExperts(availability[expertiseTuple][1])
 					# attempt to add the assign the course to the first 
 					# qualified faculty
 					if (potentialProfs[profIndex].addCourse(course)):
@@ -184,40 +192,62 @@ class Schedule(object):
 						# addCourse(course) == False means that the professor 
 						# was unable to teach the class due to space or time
 						# conflicts, continue searching
+
+						lost = potentialProfs.pop(profIndex)
+
+						
 						options = len(potentialProfs)
 						# if there are no more options, ignore for now
-						if (options > (profIndex + 1)):
-							profIndex += 1
+						if (options > 1):
+							
 							# leave marked as unassigned for later
 							isAssigned = False
 							continue
+						elif (options == 1):
+							if (potentialProfs[profIndex].addCourse(course)):
+								# addCourse(course) == True means that the professor had 
+								# room in their schedule to take the course
+								course.isAssigned = True
+								isAssigned = True
+								break
+							else:
+								break
 						else:
 							break
-		# go back over courses left unassigned and assign to whoever has time
-		c = 0
+		# go back over courses left unassigned and gather statistics 
+
+		numUnassigned = 0.0
+		unassigned = []
 		for rest in quarter.courses:
 			if (rest.isAssigned != True):
 				# for now, simply go through all potentially available faculty
 				# for free in self.instructors:
-				print rest.courseNumber + ' ' + rest.prefExpertise
-				c += 1
+				unassigned.append(rest)
+				numUnassigned += 1
 					# if (free.addCourse(rest)):
 					# 	# mark as assigned and end search
 					# 	rest.isAssigned = True
 					# 	break
-		print c
 
+		print 'Unassigned classes from ' + quarter.season + ': ' + str(numUnassigned) 
 
+	def showFacultyAvailability(self):
+		"""
+		"""
+		openProfCount = 0.0
+		openProfs = []
+		for prof in self.instructors:
+			if (prof.totalCourses() < prof.numClasses):
+				# for now, simply go through all potentially available faculty
+				# for free in self.instructors:
+				openProfs.append(prof)
+				openProfCount += 1
+					# if (free.addCourse(rest)):
+					# 	# mark as assigned and end search
+					# 	rest.isAssigned = True
+					# 	break
 
-
-
-
-
-
-
-
-
-
+		print 'Professors with available space: ' + str(openProfCount)
 
 
 
