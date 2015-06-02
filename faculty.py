@@ -26,6 +26,10 @@ class Faculty(object):
             + ' with expertise in ' + self.expertise1 + ', ' \
             + self.expertise2 + ' and ' + self.expertise3
 
+    def clearFaculty(self):
+        for quart in self.courses:
+            del quart[:]
+
     def totalCourses(self):
         """ returns the number of classes currently assigned to for the year
         """
@@ -34,7 +38,6 @@ class Faculty(object):
             count += len(self.courses[season])
 
         return count
-
 
     def addCourse(self, newCourse):
         """ Attempts to add a course to be taught for the quarter
@@ -99,7 +102,7 @@ class Faculty(object):
             if (self.courses.has_key(quarter)):
                 for s in self.courses[quarter]:
                     if (s.quarter == quarter):
-                        print str(s.courseNumber) +' '+ str(s.startTime) + ' '+ str(s.endTime) + ' ' + str(s.day)
+                        print str(s.courseNumber) +': '+ str(s.startTime) + ' '+ str(s.endTime) + ' ' + str(s.day)
                 print
         else:
             print '-----------------------------------------------------------'
@@ -110,11 +113,6 @@ class Faculty(object):
             print self.maxClasses
             print self.totalCourses()
             print
-
-        # loop through all courses assigned to the faculty
-        # for course in self.courses:
-        #     # then call their display method
-        #     print course.display()
 
 
 

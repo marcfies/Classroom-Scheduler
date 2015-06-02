@@ -24,6 +24,10 @@ class Quarter(object):
 		return str(self.year) + ' ' + self.season + " Quarter:\n" + \
 			str(len(self.courses)) + ' Courses \n'
 
+	def resetQuarter(self):
+		for al in self.courses:
+			al.resetCourse()
+
 	def getPreferredExpertise(self, expertise):
 		""" Returns a list of all courses that rely on a given expertise
 
@@ -46,6 +50,8 @@ class Quarter(object):
 				matchingCourses.append(courseInst)
 		# return the list of courses, empty or not
 		return matchingCourses
+
+
 
 	def getExpertiseNeeds(self):
 		""" returns a dictionary of all the expertises needed this quarter and
